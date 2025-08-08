@@ -4,11 +4,11 @@ body {
 }
 
 .container {
-  width: 40%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   background-color: #ffffff;
   border-radius: 28px;
   padding-top: 40px;
@@ -95,7 +95,23 @@ body {
 @media (max-width: 600px) {
   .container {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .omlette-title h1 {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .omlette-title h1 {
+    font-size: 29px;
   }
 }
